@@ -1,0 +1,19 @@
+{
+  "private": false,
+  "name": "realjay-translate",
+  "version": "0.0.1",
+  "description": "This is a text translation plugin tat replaces variables prefixed and surfixed with special characters ke php strtr",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "bili --name index"
+  },
+  "author": "Nwachukwu James",
+  "license": "MIT",
+  "files": [
+    "dist/*"
+  ],
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.2",
+    "bili": "^5.0.5"
+  }
+}
