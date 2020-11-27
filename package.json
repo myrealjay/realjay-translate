@@ -1,11 +1,11 @@
 {
   "private": false,
   "name": "realjay-translate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This is a text translation plugin tat replaces variables prefixed and surfixed with special characters ke php strtr",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "bili --name index"
+    "build": "bili --bundle-node-modules"
   },
   "author": "Nwachukwu James",
   "license": "MIT",

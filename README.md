@@ -1,6 +1,6 @@
 # realjay-translate
 
-This is a text translation plugin tat replaces variables prefixed and surfixed with special characters ke php strtr
+This is a text translation plugin that replaces variables prefixed and surfixed with special characters like php strtr
 
 #Installation
 
@@ -9,8 +9,9 @@ to install run
 
 in your main.js
 
-```import Translate from "realjay-translate";
+```
 import Vue from "vue";
+import Translate from "realjay-translate";
 
 Vue.use(Translate);
 ```
@@ -23,4 +24,6 @@ let text="I love playing $game$ and i also love to travel by $means$";
 let translated=this.$translate(text,replacements);
 console.log(translated);
 ```
+
+Fint it on the <a href="https://github.com/myrealjay/realjay-translate">Github Link</a>
 
